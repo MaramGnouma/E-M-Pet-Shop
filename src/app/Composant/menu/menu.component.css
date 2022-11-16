@@ -1,0 +1,14 @@
+.active{
+    text-decoration: underline;
+        color: #472f39;
+        text-decoration: none;
+}
+.menu{
+    background-color:#e8e0d5;
+}
+#logo{
+        color:  #a4806e;
+       border-radius: 25%;
+}
+
+    
