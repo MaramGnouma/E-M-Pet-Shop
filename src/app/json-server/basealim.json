@@ -1,0 +1,16 @@
+{
+    "alimentations":[
+    {"id":1,"libelle":"PRO CHOICE GF PÂTE CHAT POISSON","photo":"assets/images/alim1.jpg","quantite":50,"disponible":true,"prix":5.200},
+    {"id":1,"libelle":"PÂTÉ ET MORCEAUX SAUMON FRAÎCHE 100GR","photo":"assets/images/patecat.jpg","quantite":50,"disponible":true,"prix":3.200},
+    {"id":1,"libelle":"POCHON PLAISIR SAUMON/CABILLAUD 100","photo":"assets/images/pochon.jpg","quantite":50,"disponible":true,"prix":3.200},
+    {"id":1,"libelle":"SIMBA CAT WITH TUNA/WHITEFISH","photo":"assets/images/tuna.jpg","quantite":20,"disponible":true,"prix":8.200},
+    {"id":1,"libelle":"KIPPY CAT BOEUF ","photo":"assets/images/boeuf.jpg","quantite":20,"disponible":true,"prix":10.900},
+    {"id":1,"libelle":"SERRANO SNACK THON SAUMON ","photo":"assets/images/croquette.jpg","quantite":20,"disponible":true,"prix":9.750},
+    {"id":1,"libelle":"BOITE CLAUDER'S CANARD ","photo":"assets/images/alimchien.jpg","quantite":20,"disponible":true,"prix":19.750},
+    {"id":1,"libelle":"BURGER CAT PATE POULET","photo":"assets/images/kippy.jpg","quantite":20,"disponible":true,"prix":14.000},
+    {"id":1,"libelle":"PRO CHOICE GF PÂTE CHIEN POULET","photo":"assets/images/prochien.jpg","quantite":20,"disponible":true,"prix":6.000},
+    {"id":1,"libelle":"BOITE KIPPY PUPPY DINDE POMME","photo":"assets/images/kindy.jpg","quantite":20,"disponible":true,"prix":6.900},
+    {"id":1,"libelle":"CARNILOVE BOITE SANGLIER AGNEAU","photo":"assets/images/boite.jpg","quantite":20,"disponible":true,"prix":12.000},
+    {"id":1,"libelle":"SP.DOG EXC.POCHON MEDIUM SENIOR POULET","photo":"assets/images/sp.jpg","quantite":20,"disponible":true,"prix":20.900}
+]
+}

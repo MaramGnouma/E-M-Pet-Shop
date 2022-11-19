@@ -15,6 +15,7 @@ import { FooterComponent } from './Composant/footer/footer.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { ShopComponent } from './Composant/shop/shop.component';
 import { AlimentationComponent } from './Composant/alimentation/alimentation.component';
+import { LoginComponent } from './Composant/login/login.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { AlimentationComponent } from './Composant/alimentation/alimentation.com
     FooterComponent,
     ShopComponent,
     AlimentationComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

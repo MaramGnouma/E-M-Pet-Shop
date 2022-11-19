@@ -8,6 +8,8 @@ import { AccueilComponent } from './Composant/accueil/accueil.component';
 import { ContactComponent } from './Composant/contact/contact.component';
 import { ShopComponent } from './Composant/shop/shop.component';
 import { AlimentationComponent } from './Composant/alimentation/alimentation.component';
+import { SelectedproduitComponent } from './Composant/selectedproduit/selectedproduit.component';
+import { LoginComponent } from './Composant/login/login.component';
 
 const routes: Routes = [
   {path:'accueil',title:'Accueil', component:AccueilComponent},
@@ -17,7 +19,9 @@ const routes: Routes = [
   {path:'adopt',title:'Adopt', component:AdoptComponent},
   {path:'aboutus',title:'A propos de nous', component:AboutusComponent},
   {path:'produits',title:'Accessoires', component:ProduitsComponent},
+  {path:'login',title:'Login', component:LoginComponent},
   {path:'alimentation',title:'alimentation', component:AlimentationComponent},
+  {path:'produits/:id',title:'Produit choisi', component:SelectedproduitComponent},
   {path:'', redirectTo:'accueil', pathMatch:'full'},
   {path:'**', title:'Erreur',component:ErreurComponent}
 

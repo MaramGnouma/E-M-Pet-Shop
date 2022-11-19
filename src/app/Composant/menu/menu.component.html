@@ -5,7 +5,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <img src="assets/logom.png" width="150px" height="120px" id="logo"/>
+            <img src="assets/logom.png" width="150px" height="120px" id="logo" routerLinkActive="active" routerLink="/accueil"/>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                     <a class="nav-link" routerLinkActive="active" routerLink="/accueil">Accueil</a>
@@ -27,6 +27,9 @@
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+            <span class="m-3">|</span>
+        <a class="nav-link" routerLinkActive="active" routerLink="/login" style="padding-left: 10px"><i class="fa-solid fa-user"></i>Login</a>
+
         </div>
     </div>
 </nav>

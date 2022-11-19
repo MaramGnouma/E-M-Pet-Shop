@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Alimentation } from 'src/app/classalim/alimentation';
+import { ProduitservService } from 'src/app/Service/produitserv.service';
 
 @Component({
   selector: 'app-alimentation',
@@ -6,10 +8,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./alimentation.component.css']
 })
 export class AlimentationComponent implements OnInit {
-
-  constructor() { }
+  
+  Alim!:Alimentation[];
+  constructor(private alimService:ProduitservService) { }
 
   ngOnInit(): void {
+    this.alimService.getAlimentation().subscribe (data => this.Alim = data)
+   
   }
 
 }

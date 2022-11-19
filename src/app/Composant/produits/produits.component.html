@@ -13,8 +13,9 @@
                             <br>
                     <p class="card-text">Prix:{{p.prix}}DT</p>
                     <span class="badge text-bg-secondary" *ngIf="p.disponible==true">Disponible</span> 
+                    <span class="badge text-bg-secondary" *ngIf="p.disponible==false">Rupture du stock</span> 
                     <span class="badge text-bg-secondary m-4">Commander</span> <br> <br> 
-                    <button type="button" class="btn btn-primary container">Détails</button>
+                    <button type="button" class="btn btn-primary container"> <a  [routerLink]="['/produits', p.id]"> Détails</a></button>
                 </div>
             </div>
           <br>
