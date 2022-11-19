@@ -1,0 +1,21 @@
+{
+    "produits":[
+        {"id":1,"libelle":"Pet Travel Carrier","photo":"assets/images/carrierpets.jpg","quantite":250,"disponible":true,"prix":150},
+        {"id":2,"libelle":"NICHE CHALET LG","photo":"assets/images/niche.jpg","quantite":100,"disponible":false,"prix":800},
+        {"id":3,"libelle":"TAPIS VOITURE 1 PLACE","photo":"assets/images/tapis.jpg","quantite":50,"disponible":true,"prix":44.500},
+        {"id":4,"libelle":"COLLIER CUIR EDINBURGH BLEU","photo":"assets/images/collier.jpg","quantite":50,"disponible":true,"prix":30},
+        {"id":5,"libelle":"CEINTURE DE SECURITE VOITURE","photo":"assets/images/ceinture.jpg","quantite":30,"disponible":true,"prix":20},
+        {"id":5,"libelle":"Gilet de chien","photo":"assets/images/padded.webp","quantite":30,"disponible":true,"prix":55.500},
+        {"id":5,"libelle":"TAPIS DE GRATTAGE ESSENCE NOCE","photo":"assets/images/tapiscat.jpg","quantite":20,"disponible":true,"prix":24.900},
+        {"id":5,"libelle":"CAT COLLAR CATMANIA SUSHI","photo":"assets/images/catcoll.jpg","quantite":20,"disponible":true,"prix":15.500},
+        {"id":5,"libelle":"COLLIER CHAT PAPILLON","photo":"assets/images/papillon.jpg","quantite":30,"disponible":true,"prix":25.900},
+        {"id":5,"libelle":"MAISON DE TOILETTE","photo":"assets/images/toilette.jpg","quantite":30,"disponible":true,"prix":60},
+        {"id":5,"libelle":"BAC À LITIÈRE FIGARO AVEC BORD SAVIC","photo":"assets/images/litier.jpg","quantite":30,"disponible":true,"prix":55.500},
+        {"id":5,"libelle":"CAT SCRAPERS NATURAL MAGNOLIA","photo":"assets/images/catjouet.jpg","quantite":25,"disponible":true,"prix":99.500}
+    ],
+    "alimentations":[
+        {"id":1,"libelle":"Pet Travel Carrier","photo":"assets/images/carrierpets.jpg","quantite":250,"disponible":true,"prix":150}
+    ]
+
+}
+

@@ -12,7 +12,9 @@ import { ProduitsComponent } from './Composant/produits/produits.component';
 import { ContactComponent } from './Composant/contact/contact.component';
 import { ErreurComponent } from './Composant/erreur/erreur.component';
 import { FooterComponent } from './Composant/footer/footer.component';
-
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ShopComponent } from './Composant/shop/shop.component';
+import { AlimentationComponent } from './Composant/alimentation/alimentation.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,11 +25,14 @@ import { FooterComponent } from './Composant/footer/footer.component';
     ContactComponent,
     MenuComponent,
     ErreurComponent,
-    FooterComponent
+    FooterComponent,
+    ShopComponent,
+    AlimentationComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
